@@ -14,6 +14,7 @@
     if (self!=nil) {
         self.sleep=100;
         [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerAction:) userInfo:nil repeats:YES];
+        NSLog("孩子孩子");
     }
     return self;
 }
